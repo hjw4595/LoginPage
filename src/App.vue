@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <div>
-              <router-link to="/" replace>메인페이지</router-link>
-              <router-link to="/detailPage" replace>디테일 페이지</router-link>
+
     </div>
     <body>
       <router-view></router-view>

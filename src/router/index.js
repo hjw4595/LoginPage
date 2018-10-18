@@ -7,7 +7,7 @@ export default [{
     name: 'MainPage',
     component: MainPage
 }, {
-    path: '/detailPage',
+    path: '/detailPage/:id',
     name: 'DetailPage',
     component: DetailPage
 }, {
