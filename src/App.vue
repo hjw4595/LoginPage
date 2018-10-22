@@ -26,7 +26,8 @@
     },
     data: function () {
       return {
-        
+        created(){
+        }
       }
     }
   };

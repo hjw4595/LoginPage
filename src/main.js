@@ -2,8 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import Routes from './router/index.js'
+import axios from 'axios';
 
 Vue.use(VueRouter)
+Vue.prototype.$http = axios
 
 Vue.filter('to-uppercase', function(value) {
     return value.toUpperCase();
