@@ -1,7 +1,7 @@
-# comento
 
 > A Vue.js project
-
+my project - web site 
+use skill - Vue, axios, cass 
 ## Build Setup
 
 ``` bash
